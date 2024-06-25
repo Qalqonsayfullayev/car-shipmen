@@ -1,0 +1,53 @@
+.site-footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer__child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__child-img {
+    Width: 111px;
+Height: 24px;
+Top: 0px;
+Left: 0px;
+margin-bottom: 22px;
+}
+
+.footer__child-text{
+    Font: Karla;
+Font-weight: 400;
+Font-size: 14px;
+Letter-spacing: 0%;
+color: rgba(29, 31, 46, 0.7);
+margin-top: 10px;
+}
+
+.footer__child-p {
+    Font: Karla;
+Font-weight: 400;
+Font-size: 14px;
+Letter-spacing: 0%;
+color: rgba(29, 31, 46, 0.3);
+margin-top: 80px;
+}
+
+.footer__child-h4 {
+    Font: Karla;
+Font-weight: 400;
+Font-size: 12px;
+Letter-spacing: 2px;
+color: rgb(29, 31, 46);
+margin-bottom: 22px;
+margin-top: 10px;
+}
+
+.footer__child-link {
+    Font: Karla;
+Font-weight: 400;
+Font-size: 23px;
+Letter-spacing: 0%;
+margin-top: 16px;
+}

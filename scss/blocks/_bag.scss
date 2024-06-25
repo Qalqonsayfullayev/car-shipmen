@@ -1,0 +1,56 @@
+.site-bag {
+  width: 100%;
+  height: 327px;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(29, 31, 46);
+  margin-top: 150px;
+  text-align: center;
+}
+
+.bag__ul-h4 {
+  font: Karla;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  padding-top: 80px;
+}
+
+.bag__ul-h3 {
+  font: Karla;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0%;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.bag__ul-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.bag__ul-input {
+  width: 360px;
+  height: 54px;
+  top: 108px;
+  left: 225.5px;
+  font: Karla;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 17px 89px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 31, 46);
+}
+
+.bag__ul-btn {
+    Width: 129px;
+Height: 54px;
+Top: -0.2px;
+Left: 360.5px;
+background-color: white;
+}
