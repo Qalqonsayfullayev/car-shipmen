@@ -1,63 +1,46 @@
+.site-header {
+  background-color:  rgba(0, 0, 0, 0.3);
+  padding: 0;
+}
+
 .header {
-    display: flex;
-    margin-top: 25px;
-    justify-content: space-between;
+  @include display($items: center, $space: space-between, $gap: 150px);
+  position: fixed;
+
+}
+
+.header__logo-link {
+  display: inline-block;
+}
+
+.navbar {
+  @include display($items: center, $space: none, $gap: 50px);
+}
+
+.navbar__list {
+  @include display($items: center, $space: none, $gap: 25px);
+}
+
+.navbar__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: $clr-white;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $clr-orange;
   }
-  
-  .header__sec-img {
-    width: 112px;
-    height: 24px;
-    top: 28px;
-    left: 20px;
+}
+
+.navbar__phone-number {
+  @include display($items: center, $space: none, $gap: 10px);
+  color: $clr-white;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0%;
+
+  &:hover {
+    color: $clr-orange;
   }
-  
-  .header__section-nav {
-    display: flex;
-    gap: 30px;
-    margin-top: 5px;
-  }
-  
-  .header__section-link {
-    height: 30px;
-    top: 0px;
-    color: black;
-  
-    &:hover {
-      color: rgb(162, 95, 75);
-    }
-  }
-  
-  .header__sections-div {
-    width: 92px;
-    height: 2px;
-    top: 24px;
-    left: 0px;
-    background-color: rgba(162, 95, 75, 0.3);
-  }
-  
-  .header__sections-div:hover {
-    background: rgb(162, 95, 75);
-  }
-  
-  .header__sections-shop {
-    width: 92px;
-    height: 26px;
-    top: 29px;
-    left: 828px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .header__sections-img {
-    width: 16px;
-    height: 20px;
-    top: 0px;
-    left: 0px;
-  }
-  
-  .header__sections-image {
-    width: 20px;
-    height: 18px;
-    top: 3px;
-    left: 72px;
-  }
+}
